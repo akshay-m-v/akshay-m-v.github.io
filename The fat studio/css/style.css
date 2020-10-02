@@ -280,14 +280,15 @@ font-weight: 700;
 }
 .header-section {
 	position:relative;
+
 }
 
 #top-logo-container{
 	position:relative;
 	top:0vw;
 	left:5vw;
-	width:200px;
-	height:200px;
+	width:10%;
+	height:10%;
 	background: none;
 	z-index:2000;
 }
@@ -295,12 +296,12 @@ font-weight: 700;
 
 #bottom-logo-container{
 	position:relative;
-	width:150px;
-	height:100px;
+	width:10%;
+	height:10%;
 	text-align:center;
 	background:none;
 	margin:auto;
-	margin-bottom:50px;
+	
 	display:block;
 }
 
@@ -314,7 +315,7 @@ font-weight: 700;
 
 .sticky-section {
 	width: 100%;
-	height: 80px;
+	height: 5%;
 	z-index: 1025;
 	transition: all .3s ease-in;
 	background: rgba(0,0,0, .15);
@@ -334,7 +335,7 @@ font-weight: 700;
 
 .site-name span {
 	padding: 0 13px;
-	height: 50px;
+	height: 10%;
 	width: 35px;
 	display: inline-block;
 	margin-right: 3px;
@@ -344,7 +345,7 @@ font-weight: 700;
 	left: 0;
 	right: 0;
 	top: 0;
-	padding-top: 13px;
+	padding-top: 2%%;
 	z-index: 1025;
 }
 
@@ -372,10 +373,11 @@ color:#ccc !important;
 
 canvas {
 
-  position: absolute;
+  position: fixed;
   width:100%;
-  top: 0;
+  top: 5%;
   left: 0;
+
   background-color: #000;
 }
 
@@ -386,9 +388,10 @@ canvas {
 /*-----parallax---*/
 
 .default-parallax-section{
-	top: 200px;
+
+
 	position: relative;
-	min-height:1090px;
+	min-height:850px;
 	min-width: 100%;
 	background-position: center center;
 	background-size:cover;
@@ -398,17 +401,18 @@ canvas {
 }
 
 .default-parallax-section .inner{
-	position:absolute;
+	position: relative;
 	left:0px;
-	top:0px;
+	top:60px;
 	width:100%;
-	height:100%;
+	
+
 }
 
 .default-parallax-section .inner .content{
-	position:absolute;
+	position: relative;;
 	left:0px;
-	top:0px;
+	
 	width:100%;
 	height:100%;
 	display:table;
@@ -421,7 +425,7 @@ canvas {
 	top:0px;
 	width:100%;
 	max-width:none;
-	padding:30px 20px;
+	
 	display:table-cell;
 	vertical-align:middle;	
 }
@@ -430,8 +434,8 @@ canvas {
 	position: relative;
 	line-height: 1.06em;
 	color: #ed4f4e;
-	padding: 5px 20px;
-	font-size: 80px;
+	bottom: 30px;
+	font-size: 180%;
 	font-weight: 700;
 	text-transform: uppercase;
 	background-color: #ffffff;
@@ -460,45 +464,30 @@ canvas {
 }
 
 
-.default-parallax-section .inner .category-left{
+.default-parallax-section .inner{
+	width: 100%;
 	position: relative;
 	line-height: 1.56em;
-	padding: 170px 170px;
+	text-align: center;
+	padding: 13% 12% ;
 	color: #ffffff;
-	width: 900px;
-	font-size: 24px;
-	font-weight: 600;
-	margin-top: 30px;
-	background-color: #00000027;
-	display: flexbox;
+	font-size: 125%;
+	font-weight: 500;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-color: #0000002d;
+	display: block;
 }
 
-.default-parallax-section .inner .category-right{
-	position: relative;
-	line-height: 1.56em;
-	padding: 170px 170px;
-	color: #ffffff;
-	margin-left: 900px;
-	width: 900px;
-	font-size: 24px;
-	font-weight: 600;
-	margin-top: 30px;
-	background-color: #00000027;
-	display: flexbox;
-}
 
  .list{
 	position: relative;
-
-	margin-left: 500px;
-	width: 500px;
-
-	line-height: 1.56em;
+	margin-top: 5%;
+	line-height: 1.76em;
 	color: #ffffff;
-	text-align: left;
+	text-align: center;
 	align-content: center;
-	font-size: 24px;
-	font-weight: 600;
+	font-size: 80%;
+	font-weight: 700;
 	background-color: #00000027;
 	display: inline-block;
 }
@@ -1192,9 +1181,8 @@ margin-right: 8px;
 /* ================ Footer Section ================ */
 #section-footer {
 	position: relative;
-	padding-top: 10px;
-	top: 100px;
-	padding-bottom: 8px;
+	
+	
 	background: rgb(0, 0, 0);
 	width:100%;
 	
@@ -1204,7 +1192,7 @@ margin-right: 8px;
 .footer-title {
 	text-align:center;
 	display: inline-block;
-	margin-bottom: 40px;
+	
 	text-transform: none;
 }
 
@@ -1226,7 +1214,8 @@ margin-right: 8px;
 }
 
 .copyright {
-	padding-top: 15px;
+	padding-top: 1%;
+	font-size: 80%;
 }
 
 /* FB popUp */
