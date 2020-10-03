@@ -377,7 +377,6 @@ canvas {
   width:100%;
   top: 5%;
   left: 0;
-
   background-color: #000;
 }
 
@@ -403,7 +402,7 @@ canvas {
 .default-parallax-section .inner{
 	position: relative;
 	left:0px;
-	top:60px;
+	top:4px;
 	width:100%;
 	
 
@@ -491,6 +490,12 @@ canvas {
 	background-color: #00000027;
 	display: inline-block;
 }
+
+/* ------------------- new ---------------------*/
+
+
+
+
 
 
 /* --------------- Home section --------------- */
